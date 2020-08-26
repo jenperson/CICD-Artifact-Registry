@@ -16,7 +16,7 @@ spec:
       containers:
       - name: hello-app
         # Replace $GCLOUD_PROJECT with your project ID
-        image: gcr.io/$GCLOUD_PROJECT/helloworld-gke:latest
+        image: us-central1-docker.pkg.dev/drayne/drayne-home/:latest
         # This app listens on port 8080 for web traffic by default.
         ports:
         - containerPort: 8080
